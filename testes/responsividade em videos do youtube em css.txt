@@ -16,3 +16,25 @@
     top: 4%;
     left: 7%;
 }
+
+ou
+
+.videoyt {
+    position: relative;
+    padding: 20px;
+    padding-bottom: 50%;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.videoyt > iframe {
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 84%;
+    height: 90%;
+    padding: 5px;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
